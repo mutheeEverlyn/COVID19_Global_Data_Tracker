@@ -15,7 +15,7 @@ This project focuses on analyzing and visualizing global COVID-19 data using Pyt
 
 ## 🛠️ Tools and Libraries Used
 
-- **Python 3.9+**
+- **Python 3.13.2 **
 - **Jupyter Notebook**
 - **Pandas** – for data manipulation
 - **Matplotlib / Seaborn / Plotly** – for visualizations
