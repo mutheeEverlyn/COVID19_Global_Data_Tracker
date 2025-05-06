@@ -31,7 +31,7 @@ This project focuses on analyzing and visualizing global COVID-19 data using Pyt
    jupyter notebook
    ```
 
-2. Launch the notebook file `covid19_analysis.ipynb`.
+2. Launch the notebook file `COVID19_Global_Data_Tracker.ipynb`.
 
 3. Install required libraries if not already available:
    ```
