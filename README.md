@@ -10,6 +10,7 @@ This project focuses on analyzing and visualizing global COVID-19 data using Pyt
 - Create visualizations to show the spread and impact over time.
 - Enable user input to select specific countries and timeframes.
 - Identify peaks, declines, and anomalies in the data.
+- Allow filtering by country and date range (in the Streamlit dashboard).
 
 ---
 
@@ -21,6 +22,8 @@ This project focuses on analyzing and visualizing global COVID-19 data using Pyt
 - **Matplotlib / Seaborn / Plotly** – for visualizations
 - **IPyWidgets** – for interactive controls
 - **NumPy** – for numerical processing
+- `streamlit` (for dashboard)
+- `owid-covid-data.csv` (data source)
 
 ---
 
@@ -39,6 +42,19 @@ This project focuses on analyzing and visualizing global COVID-19 data using Pyt
    ```
 
 4. Run all cells in order to explore data and interact with visualizations.
+
+5. Ensure dashboard.py and owid-covid-data.csv are in the same folder.
+
+6. From the terminal,ensure you navigate to the folder where the project is and run: streamlit run dashboard.py 
+
+7. Your browser will open an interactive dashboard allowing you to:
+
+   - Select a country
+
+   - Choose a custom date range
+
+   - Visualize new cases, deaths, hospitalizations, and ICU trends
+
 
 ---
 
